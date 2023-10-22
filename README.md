@@ -65,8 +65,11 @@ _Minio itself is not directly a part of your tech stack; instead, it's an extern
 
 
 
+![WhatsApp Image 2023-10-21 at 14 45 12_48db0754](https://github.com/Madhurithotakua/Object-Storage-Systems/assets/104493027/b2d69cf4-ba31-4480-990e-bfb8c744bfe2)
 
 
 
 
+![WhatsApp Image 2023-10-21 at 14 45 13_a0f82c7a](https://github.com/Madhurithotakua/Object-Storage-Systems/assets/104493027/ec1ade3b-4662-4b8e-9ff0-f71ff75da106)
 
+![WhatsApp Image 2023-10-21 at 14 45 13_a26b9cb0](https://github.com/Madhurithotakua/Object-Storage-Systems/assets/104493027/0bc66869-c0d5-4d3e-a1b7-df1f41bdb409)
