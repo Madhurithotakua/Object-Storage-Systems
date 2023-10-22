@@ -51,9 +51,14 @@ Set the environment variables for Minio. In this example, we set the root user a
 ```
 setx MINIO_ROOT_USER admin
 setx MINIO_ROOT_PASSWORD password
-
 ```
-
+**Start Minio Server:**
+Open a PowerShell window, navigate to the directory where you placed the Minio binary, and use the following command to start the Minio server:
+```
+C:\minio.exe server F:\Data --console-address ":9001"
+```
+Replace F:\Data with the path to the directory where you want to store your Minio data. Minio should now be running locally, and you can access it through a web browser at http://localhost:9000.
+__These steps will help you set up Minio on your Windows system for local development.__
 4. Run Minio with the desired configuration using a command like:
    ```
    ./minio server /path/to/data
@@ -80,6 +85,30 @@ __Tech Stack Components__
 _Minio itself is not directly a part of your tech stack; instead, it's an external component used for storage and data management within your applications._
 
 ### Project Flow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![WhatsApp Image 2023-10-21 at 14 45 12_426f3c77](https://github.com/Madhurithotakua/Object-Storage-Systems/assets/104493027/4a2489cc-856f-4eb8-bda3-f4d9d906ed55)
 
 
 
