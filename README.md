@@ -63,12 +63,23 @@ _Minio itself is not directly a part of your tech stack; instead, it's an extern
 
 ### Project Flow
 
+First thing is to create two folders named 
+The structure of folder is as follows
 
+
+
+**Frontend**
+For frontend we have used *React.js*
+Initially navigate to the frontend folder and open the terminal using ctrl + shift + ` in vs code or click on new terminal Type cd Frontend It will navigate to the folder. Then type ` npm install `  The necessary files and node modules will be installed.
+
+We run the frontend part using the command ``` npm start ``` 
+
+This will be the output that has to be displayed on running the command.
 
 ![WhatsApp Image 2023-10-21 at 14 45 12_48db0754](https://github.com/Madhurithotakua/Object-Storage-Systems/assets/104493027/b2d69cf4-ba31-4480-990e-bfb8c744bfe2)
 
-
-
+**Backend**
+For backend we have used *Node.js*  and *python*
 
 ![WhatsApp Image 2023-10-21 at 14 45 13_a0f82c7a](https://github.com/Madhurithotakua/Object-Storage-Systems/assets/104493027/ec1ade3b-4662-4b8e-9ff0-f71ff75da106)
 
