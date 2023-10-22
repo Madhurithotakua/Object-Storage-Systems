@@ -45,6 +45,11 @@ To set up Minio locally on Windows, follow these steps:
 
    ```powershell
    Invoke-WebRequest -Uri "https://dl.min.io/server/minio/release/windows-amd64/minio.exe" -OutFile "C:\minio.exe"
+- **Set Environment Variables**:
+Set the environment variables for Minio. In this example, we set the root user and password. You can customize these as needed:
+
+'''setx MINIO_ROOT_USER admin
+setx MINIO_ROOT_PASSWORD password
 
 4. Run Minio with the desired configuration using a command like:
    ```
