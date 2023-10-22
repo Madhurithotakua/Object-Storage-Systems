@@ -45,7 +45,7 @@ To set up Minio locally:
    
 **Accessing the Minio Web Interface:**
 - Once Minio is running, you can access its web interface by opening a web browser and going to `http://localhost:9000` (by default). You can use this interface to manage your local Minio instance.
-- 
+  
 **Necessary Configurations:**
 - Minio comes with a default configuration that should work for local development. For production use, you may need to set environment variables or modify the configuration file to secure your instance and define storage policies.
 
