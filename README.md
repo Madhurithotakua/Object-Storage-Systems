@@ -36,6 +36,16 @@ To set up Minio locally:<img src="https://cpl.thalesgroup.com/sites/default/file
 1. Download the Minio binary for your platform from the official website.
 2. Extract the downloaded archive to a directory of your choice.
 3. Open a terminal or command prompt and navigate to the directory where you extracted Minio.
+   ##### Setting up Minio Locally
+
+To set up Minio locally on Windows, follow these steps:
+
+- **Download Minio Binary:**
+   Download the Minio binary for Windows from the official Minio website. You can use a web browser or run the following command in PowerShell to download Minio to your system:
+
+   ```powershell
+   Invoke-WebRequest -Uri "https://dl.min.io/server/minio/release/windows-amd64/minio.exe" -OutFile "C:\minio.exe"
+
 4. Run Minio with the desired configuration using a command like:
    ```
    ./minio server /path/to/data
