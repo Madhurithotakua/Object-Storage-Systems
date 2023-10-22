@@ -70,7 +70,7 @@ The structure of folder is as follows
 
 **Frontend**
 For frontend we have used *React.js*
-Initially navigate to the frontend folder and open the terminal using ctrl + shift + ` in vs code or click on new terminal Type cd Frontend It will navigate to the folder. Then type ` npm install `  The necessary files and node modules will be installed.
+Initially navigate to the frontend folder and open the terminal using``` ctrl + shift + ` ``` in vs code or click on new terminal Type cd Frontend It will navigate to the folder. Then type ``` npm install ```  The necessary files and node modules will be installed.
 
 We run the frontend part using the command ``` npm start ``` 
 
