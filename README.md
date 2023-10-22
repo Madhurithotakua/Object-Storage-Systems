@@ -9,7 +9,6 @@
 - Setting up Minio Locally
 - Using Minio with Your Tech Stack
 - Project Flow
-- Application Demonstration
 - Conclusion
 
 ### Introduction
@@ -27,7 +26,7 @@ An object storage system is a data storage architecture that manages and organiz
 **3. Azure Blob Storage:** Microsoft's Azure Blob Storage is an object storage service that offers secure and efficient data storage. It integrates seamlessly with other Azure services and provides various tiers for optimizing costs based on data access patterns.
 
 ### Setting up Minio Locally
-To set up Minio locally:
+To set up Minio locally:<img src="https://cpl.thalesgroup.com/sites/default/files/content/partners/logo/2020-08/logo.png">
 
 **System Requirements:**
 - Minio is compatible with various operating systems, including Windows, macOS, and Linux.
@@ -47,6 +46,7 @@ To set up Minio locally:
 - Once Minio is running, you can access its web interface by opening a web browser and going to `http://localhost:9000` (by default). You can use this interface to manage your local Minio instance.
   
 **Necessary Configurations:**
+- You can download Minio from the official website: [Minio.io](https://min.io/). Simply go to the website, and you should find download options for various operating systems, including Windows, macOS, and Linux.
 - Minio comes with a default configuration that should work for local development. For production use, you may need to set environment variables or modify the configuration file to secure your instance and define storage policies.
 
 ### Using Minio with Your Tech Stack
