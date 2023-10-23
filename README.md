@@ -81,29 +81,39 @@ __Tech Stack Components__
   - Use the Minio JavaScript library or SDK to interact with Minio for file uploads and downloads.
   
 - **Backend**: Node.js and Python
-  - Utilize Minio client libraries or SDKs to interact with Minio from the backend. You can use the Minio SDK for Node.js and Minio SDK for Python to perform operations like file uploads and downloads.
+  - Utilize Minio client libraries or SDKs to interact with Minio from the backend. We can use the Minio SDK for Node.js and Minio SDK for Python to perform operations like file uploads and downloads.
 _Minio itself is not directly a part of your tech stack; instead, it's an external component used for storage and data management within your applications._
 
 ### Project Flow
-
-First thing is to create two folders named 
-The structure of folder is as follows
-
-
-
-**Frontend**
 For frontend we have used *React.js*
 Initially navigate to the frontend folder and open the terminal using``` ctrl + shift + ` ``` in vs code or click on new terminal Type cd Frontend It will navigate to the folder. Then type ``` npm install ```  The necessary files and node modules will be installed.
 
 We run the frontend part using the command ``` npm start ``` 
 
-This will be the output that has to be displayed on running the command.
+This will be the webpage that has to be displayed on running the command and allowed to select or upload the documents,videos,images.
 
 ![WhatsApp Image 2023-10-21 at 14 45 12_48db0754](https://github.com/Madhurithotakua/Object-Storage-Systems/assets/104493027/b2d69cf4-ba31-4480-990e-bfb8c744bfe2)
 
-**Backend**
-For backend we have used *Node.js*  and *python*
+After uploading the any of input by the user like video that will be stored in the minio server and visible in the output page as follows:
 
 ![WhatsApp Image 2023-10-21 at 14 45 13_a0f82c7a](https://github.com/Madhurithotakua/Object-Storage-Systems/assets/104493027/ec1ade3b-4662-4b8e-9ff0-f71ff75da106)
 
+For backend we have used *Node.js*  and *python*
+- Utilize Minio client libraries or SDKs to interact with Minio from the backend. We can use the Minio SDK for Node.js and Minio SDK for Python to perform operations like file uploads and downloads.
+- This image represents the minio storage process
+  1. Video uploading to a Minio server involves sending the video file as an object via an API or compatible client tool.
+
+2. The video file is typically divided into smaller data chunks, known as blocks, for efficient storage and retrieval.
+
+3. Minio then stores these blocks as objects in a distributed and scalable object storage system.
+
+4. Each object is assigned a unique key, such as a filename, and can be accessed using this key.
+
+5. Minio's architecture allows for easy scalability, redundancy, and high availability in video storage and retrieval operations.
+   
 ![WhatsApp Image 2023-10-21 at 14 45 13_a26b9cb0](https://github.com/Madhurithotakua/Object-Storage-Systems/assets/104493027/0bc66869-c0d5-4d3e-a1b7-df1f41bdb409)
+
+### Conclusion
+In conclusion, this project has been a valuable exploration of object storage systems and their real-world applications. We've not only gained a comprehensive understanding of what object storage is and how it differs from traditional file systems, but we've also examined potential alternatives. The hands-on experience of setting up Minio locally and integrating it with our tech stack has provided valuable insights into the power of object storage in modern application development. This project has equipped us with the skills to harness Minio's capabilities for efficient file management, a knowledge that can be applied to a variety of real-world scenarios.
+
+*Senior Developer* - K.Keerthi *Junior Devloper* - T.Madhuri
