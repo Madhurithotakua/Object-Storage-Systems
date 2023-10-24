@@ -85,7 +85,7 @@ __Tech Stack Components__
 _Minio itself is not directly a part of your tech stack; instead, it's an external component used for storage and data management within your applications._
 
 ### Project Flow
-First and foremost thing is to create 2 folders named *client* and *server* The folder structure is as follows
+First and foremost thing is to create 2 folders named *client* and *server* The folder structure is as follows.
 
 ![WhatsApp Image 2023-10-23 at 21 20 14_58fd0a6b](https://github.com/Madhurithotakua/Object-Storage-Systems/assets/104493027/24f1cd62-1ed8-4895-9e90-6108fbc0c03e)
 
