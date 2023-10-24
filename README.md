@@ -85,8 +85,12 @@ __Tech Stack Components__
 _Minio itself is not directly a part of your tech stack; instead, it's an external component used for storage and data management within your applications._
 
 ### Project Flow
+First and foremost thing is to create 2 folders named *client* and *server* The folder structure is as follows
+
+![WhatsApp Image 2023-10-23 at 21 20 14_58fd0a6b](https://github.com/Madhurithotakua/Object-Storage-Systems/assets/104493027/24f1cd62-1ed8-4895-9e90-6108fbc0c03e)
+
 For frontend we have used *React.js*
-Initially navigate to the frontend folder and open the terminal using``` ctrl + shift + ` ``` in vs code or click on new terminal Type cd Frontend It will navigate to the folder. Then type ``` npm install ```  The necessary files and node modules will be installed.
+Initially navigate to the frontend folder and open the terminal using``` ctrl + shift + ` ``` in vs code or click on new terminal Type cd client .It will navigate to the folder. Then type ``` npm install ```  The necessary files and node modules will be installed.
 
 We run the frontend part using the command ``` npm start ``` 
 
@@ -99,6 +103,7 @@ After uploading the any of input by the user like video that will be stored in t
 ![WhatsApp Image 2023-10-21 at 14 45 13_a0f82c7a](https://github.com/Madhurithotakua/Object-Storage-Systems/assets/104493027/ec1ade3b-4662-4b8e-9ff0-f71ff75da106)
 
 For backend we have used *Node.js*  and *python*
+- we run the backend part using command ``` python app.py ``` 
 - Utilize Minio client libraries or SDKs to interact with Minio from the backend. We can use the Minio SDK for Node.js and Minio SDK for Python to perform operations like file uploads and downloads.
 - This image represents the minio storage process
 1. Video uploading to a Minio server involves sending the video file as an object via an API or compatible client tool.
